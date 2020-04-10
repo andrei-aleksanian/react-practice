@@ -1,48 +1,21 @@
 .App {
+  width: 1000px;
+  min-height: 50vh;
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin: 0 auto;
 
-  font-family: Arial, sans-serif;
-}
-
-.person{
-  width: 600px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0px 0px 10px 0px rgba(119,119,119,0.3);
-  font-family: Calibri, sans-serif;
-}
-
-button{
-  font-size: 22px;
-  font-family: Bahnschrift;
-  width: 120px;
-  height: 40px;
-
-  border:none;
-  border-radius: 5px;
-  outline: none;
-  background-color: aqua;
+  box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
 
 }
 
-button{
-  font-size: 22px;
-  font-family: Bahnschrift, sans-serif;
-  width: 120px;
-  height: 40px;
-
-  border:solid 2px orange;
-  border-radius: 1px;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-button:hover{
-  border:none;
-  color: white;
-  background-color: orange;
+.charBox{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 10px 5px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
 }
